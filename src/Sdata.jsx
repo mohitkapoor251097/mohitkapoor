@@ -11,6 +11,10 @@ const  Sdata=
         imgsrc:web1,
         title:"Web1 Development",
     },
+    {
+      imgsrc:web1,
+      title:"Web1 Development",
+  },
      
 ];
 export default Sdata;

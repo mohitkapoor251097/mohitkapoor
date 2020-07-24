@@ -10,9 +10,9 @@ const Card=(props)=>
     <>
    
       
-       <div className="col-md-6 col-xl-6 col-sm-6" >
+       <div className="col-md-4 col-xl-4 col-sm-4 mx-auto" >
              
-    <div className="card">
+    <div className="card mx-auto" >
       <img src={props.imgsrc} alt="mypic" className="card_img"/>
       <div className="card_info">
         <span className="card_category">{props.title}</span>
