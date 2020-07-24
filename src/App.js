@@ -9,12 +9,17 @@ import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
 import {Navbar} from './Navbar';
 import './index.css';
 import Footer from './Footer';
+import Clock from 'react-digital-clock';
 const App=()=>
 {
   return(
     <>
 
     <Navbar/>
+   
+      <Clock/>
+      
+    
     <Switch>
     <Route exact path="/" component={Home}/>
     <Route exact path="/about" component={About}/>

@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+ 
 }
 footer {
   position: fixed;
@@ -17,7 +18,10 @@ footer {
   height: 10px;
 }
 
-
+.clock
+{
+  color:blue;
+}
 form
 {
   margin-bottom: 50px;
@@ -29,7 +33,7 @@ form
 .navbar-brand
 {
   font-size: 1.9rem !important;
-  color: #565387 !important;
+  color: white !important;
 }
 .navbar a{
   font-weight: 1.3rem;
@@ -42,7 +46,7 @@ form
 }
 .navbar a:hover
 {
-  color:#3498db !important;
+
 }
 @media(max-width:991px)
 {

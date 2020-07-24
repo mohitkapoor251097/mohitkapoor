@@ -1,6 +1,7 @@
 import React from 'react';
 import './index.css';
 import { NavLink } from 'react-router-dom';
+import Clock from 'react-digital-clock';
 const Navbar=()=>
 {
     return(
@@ -8,7 +9,8 @@ const Navbar=()=>
         <div className="container-fluid nav_bg ">
             <div className='row'>
                 <div className='col-10 mx-auto'>
-        <nav className="navbar  navbar-expand-lg navbar-light">
+        <nav className="navbar  navbar-expand-lg navbar-light bg-primary">
+       
   <NavLink className="navbar-brand" to="/">Mohit kapoor</NavLink>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
@@ -16,6 +18,11 @@ const Navbar=()=>
 
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav  ml-auto">
+    <li className="nav-item active">
+        <NavLink
+        
+        className="nav-link" to=""><Clock/><span class="sr-only">(current)</span></NavLink>
+      </li>
       <li className="nav-item active">
         <NavLink activeClassName="menu_active"
         exact
